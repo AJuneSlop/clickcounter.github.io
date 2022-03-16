@@ -1,5 +1,65 @@
-# tempwebsite
+<html>
 
-### This should be a website that counts how many people click a button
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <style>
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 20pt;
+  font-weight: normal;
+  background: lightblue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    -90deg,
+    lightblue,
+    black
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    -90deg,
+    lightblue,
+    black
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    -90deg,
+    lightblue,
+    black
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, lightblue, black); /* Standard syntax */
+}
 
- Hopefully this works
+.main {
+  margin: 100px auto;
+  text-align: center;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 1px solid lightblue;
+  color: lightblue;
+}
+  </style>
+<script src="index.js" defer></script>
+</head>
+
+<body>
+  <div class="main">
+
+    <h3>Click Counter</h3>
+    <button onclick=clickCounter id="clickme">Click me: 0</button>
+    <h5>This is based on code found:</h5>
+    <h5>
+    <a id="result" href="https://codepen.io/juliogcampos/pen/BzdjwY?editors=1100"> Here</a>
+    </h5>
+    <h5>and google of course</h5>
+
+  </div>
+</body>
+
+</html>
