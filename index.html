@@ -44,6 +44,13 @@ button {
   border: 1px solid lightblue;
   color: lightblue;
 }
+p {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}    
+    
   </style>
 <script src="index.js" defer></script>
 </head>
@@ -53,7 +60,7 @@ button {
 
     <h3>Click Counter</h3>
     <button onclick=clickCounter id="clickme">Click me: ??</button>
-    <p> If your computer doesn't have local storage, the counter will use a temporary counter, otherwise it will use cookies to keep track of how many times you clicked the button. Next repo will try to keep permanent track of how many times the button was clicked.</p>
+    <p> If your computer doesn't have local storage, the counter will use a temporary counter, otherwise it will use cookies to keep track of how many times you clicked the button. If I get backend going, it will keep permanent track of the number of times the button was clicked.</p>
     
     <h5>This is based on code found:</h5>
     <h5>
